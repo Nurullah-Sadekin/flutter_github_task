@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_github_task/screens/homepage.dart';
+import 'package:flutter_github_task/screens/home/homepage.dart';
 
 void main() {
   runApp(const MyApp());

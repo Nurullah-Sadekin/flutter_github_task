@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_github_task/screens/tags.dart';
+import 'package:flutter_github_task/screens/home/widgets/tags.dart';
 class RepoCard extends StatelessWidget {
   const RepoCard({Key? key}) : super(key: key);
 
