@@ -1,3 +1,6 @@
+import 'dart:convert';
+License licenseFromJson(String str) => License.fromJson(json.decode(str));
+String licenseToJson(License data) => json.encode(data.toJson());
 class License {
   License({
       this.key, 
@@ -13,11 +16,11 @@ class License {
     url = json['url'];
     nodeId = json['node_id'];
   }
-  String key;
-  String name;
-  String spdxId;
-  String url;
-  String nodeId;
+  String? key;
+  String? name;
+  String? spdxId;
+  String? url;
+  String? nodeId;
 
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};
